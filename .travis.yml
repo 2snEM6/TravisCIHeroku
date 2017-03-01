@@ -1,0 +1,14 @@
+language: java
+java:
+- 1.8
+branches:
+  only:
+  - master
+notifications:
+  email:
+    recipients:
+    - limiaspasdaniel@gmail.com
+deploy:
+  provider: heroku
+  api_key:
+    secure: A48e4KTLYBJffDnUxoJNRKsy2ceENdT8SAt+u/b+fV7gLtqm2Rxy1oZK+aZa2fOA36FUEf2dV2x3JFCGHxF2XQf6/dkrHAl6I8nwGPE4wEc/ANTATz/xihXAKHoGDl9h/+Wm4vvDLTcnsYZ0Ct2XTmfjNyNKg7kyWfyHNkCYoHb2jZTOAJbSpmCSpDu7XslPJsrWHstp/IRW+xolAtYiEnt4P5Mnc3f5fXQZ5/93tq14wTWa37MYhPVo/uHMiDNvuj3dPNhImZfPfunDOMfHR92ryP09S5c4B4l1ogp+oGspuQPLXiebCTmhphUSoE/jdXM5UfGYJSKg1XMalkMx14FS507W+RjE0YtbL0xczBW7vWJCsD0oXG6Qjsydo2cv5Pn3WINkw0D0cS+y4eksQPMYp5TNELZrAD8nh47n6IfGgk9H+Iqx/l0NlHt/Y2rtfelPH8rip5s8g/IykyR7scA2CdQH5qMS9GAQ8Yxx6n8/RLnI2Uwq4zZhczbLWinqrozn0LQhcc1l3v2DP3fhdLzfRjTSh5m/AeIjMbzyXsVvo55iYaw9yemt+2IotMVhK7coItkyhFgQivPZUAH+RsXAaO138NwB7r/8el83VSnf23hEVZMNzmz4ZWLjDqLG6bNrcQN6sIs/qz3Uw8hce4U1xO1xg4ajFVyA/17IJXg=
