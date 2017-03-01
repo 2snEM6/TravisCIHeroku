@@ -1,9 +1,11 @@
 language: java
-java:
-- 1.8
 branches:
   only:
   - master
+
+script:
+  mvn test -B
+
 notifications:
   email:
     recipients:
